@@ -1,0 +1,43 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.none-display {
+  visibility: hidden;
+  display: none;
+}
+
+.anime-info ul {
+  padding: 0;
+}
+
+.anime-info li {
+  list-style-type: none;
+}
+
+.viewer-box {
+  padding: 20px;
+}
+
+.viewer-box-inner {
+  border: solid 1px;
+  padding: 20px;
+}
+
+.viewer-box :hover {
+  background-color: #efefef;
+}
+
+.viewer-box figure {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.viewer-box img {
+  width: 100%;
+}
+
+.viewer-box h2 {
+  text-align: center;
+}
