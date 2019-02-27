@@ -14,7 +14,7 @@ export default class AnimeInfo extends Component {
   handleSubmit (e) {
     const year = e.value.year
     const cours = e.value.cours
-    const url = `http://api.moemoe.tokyo/anime/v1/master/${year}/${cours}`
+    const url = `https://api.moemoe.tokyo/anime/v1/master/${year}/${cours}`
     request
       .get(url)
       .end((err, res) => {
